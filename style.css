@@ -1,4 +1,22 @@
 body{
-    text-align: center;
+    display: block;
+    margin: 8px;
     background: #f8e8a6;
+}
+h1,p,footer{
+text-align: center;
+
+}
+footer a{
+    color: green;
+}
+a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.photo {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
 }
